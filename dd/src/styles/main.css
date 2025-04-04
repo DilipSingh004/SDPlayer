@@ -1,0 +1,42 @@
+.discover{
+   padding-left: 10px;
+    backdrop-filter: blur(10px);
+    color: aqua;
+    width: 100%;
+    text-decoration: none;
+}
+
+.podcast-player{
+    padding-left: 10px;
+    backdrop-filter: blur(10px);
+    color: aqua;
+    width: 100%;
+    
+    
+}
+.podcast-player1{
+    margin-top:20px ;
+    padding: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.radio-channel-list {  
+    width: 100%;  
+    margin: 0 auto;  
+    color: aqua;
+  }  
+  
+  .radio-channel-item {  
+    border: 1px solid aqua;  
+    padding: 10px;  
+    margin-top: 50px;
+    margin-bottom: 5px;  
+    display: flex; /* Use flexbox to align items */  
+    justify-content: space-between; /* Distribute space evenly */  
+    align-items: center; /* Vertically align items */  
+  }  
+  
+  .channel-info {  
+    flex-grow: 1; /* Allow text to take up available space */  
+  }  

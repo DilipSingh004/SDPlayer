@@ -1,0 +1,122 @@
+.rightContainer {
+    height: 100vh;
+    width: 100px;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.6);
+    backdrop-filter: blur(10px);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  .rightContainer .goPro,
+  .rightContainer .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .rightContainer .goPro i,
+  .rightContainer .profile i {
+    color: #00ffff;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .rightContainer .goPro i:hover .rightContainer .profile i:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+  }
+  
+  .rightContainer .goPro i p {
+    font-size: 14px;
+  }
+  
+  .rightContainer .goPro i:nth-child(2)::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    background: #00ffff;
+  }
+  
+  .rightContainer .goPro i p span {
+    color: #00ffff;
+    margin-right: 5px;
+  }
+  
+  .rightContainer .profile .profileImage {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px rgba(34, 34, 34, 0.6);
+  }
+  
+  .rightContainer .profile .profileImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .rightContainer {
+      min-width: 64px;
+      width: 64px;
+    }
+  }
+
+  .settings-container {
+    width: 100%;
+    
+    margin: 40px auto;
+    padding: 20px;
+    background-color: transparent;
+    color: #00ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .setting {
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .setting label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .setting select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .setting input[type="range"] {
+    width: 100%;
+  }
+  
+  .setting input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

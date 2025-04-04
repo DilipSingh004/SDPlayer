@@ -1,0 +1,108 @@
+.album-container {
+    max-width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: transparent;
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 0 10px rgba(148, 147, 147, 0.468);
+    display: flex;
+    justify-content: space-around;
+    /* overflow-y: scroll; */
+  }
+  .alb{
+    width:350px;
+    height: fit-content;
+    /* border: 1px solid #00ffff; */
+    box-shadow: 0 0 10px rgba(148, 146, 146, 0.853);
+    border-radius: 10px;
+  }
+  .album-header {
+    display: flex;
+    align-items: center;
+    width:350px;
+    height: fit-content;
+    color: #00ffff;
+    box-shadow: 0 0 10px rgba(148, 146, 146, 0.853);
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .album-header img {
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .album-info {
+    color: #00ffff;
+    flex: 1;
+  }
+  
+  .album-info h2 {
+    color: #00ffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .album-info p {
+    font-size: 18px;
+    color: #00ffff;
+  }
+  
+  /* .album-tracks {
+    margin-top: 20px;
+  } */
+  
+  .album-tracks h3 {
+    color: #00ffff;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 1px solid #00ffff;
+    margin-bottom: 10px;
+  }
+  
+  .album-tracks ul {
+    color: #00ffff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .album-tracks li {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 1px solid #00ffff;
+    border-left: 1px solid #00ffff;
+    border-right: 1px solid #00ffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.338);
+  }
+  
+  .album-tracks li:last-child {
+    border-bottom: none;
+  }
+  
+  .album-tracks li span {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  .album-tracks li button {
+    background-color: #00ffff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .album-tracks li button:hover {
+    background-color: white;
+    color: #00ffff;
+  }
+  
+  

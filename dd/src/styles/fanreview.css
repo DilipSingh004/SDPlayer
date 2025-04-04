@@ -1,0 +1,100 @@
+.fans-review-container {
+    max-width: 100%;
+    margin: 40px auto;
+    height: 100%;
+    padding: 20px;
+    color: #00ffff;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(170, 167, 167, 0.504);
+    margin-top: -20px;
+  }
+.h21{
+    color: #00ffff;
+}
+  .fans-review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .scrollable-container {
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 275px;
+    padding: 10px;
+    width: 100%;
+    /* border: 1px solid #00ffff; */
+    box-shadow: 0 0 10px rgba(170, 167, 167, 0.504);
+  }
+  
+  .fan-review {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fan-review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .new-review-form {
+    margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid #00ffff; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(138, 137, 137, 0.527);
+  }
+  
+  .new-review-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    /* border: 1px solid #00ffff; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(138, 137, 137, 0.527);
+  }
+  
+  .new-review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    /* border: 1px solid #00ffff; */
+    box-shadow: 0 0 10px rgba(138, 137, 137, 0.527);
+  }
+  
+  .new-review-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ffff;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+  }  
+  .revbtn{
+    margin-left: 900px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    width: 10%;
+    height: 30px;
+   color: #00ffff;
+    font-weight: bolder;
+    background-color: transparent;
+  }
+  .revtitl{
+    display: flex;
+  }
+  .titlre{
+    margin-top: 10px;
+  }
+  .revtf{
+    margin-left: 63px;
+  }

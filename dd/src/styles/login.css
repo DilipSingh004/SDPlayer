@@ -1,0 +1,100 @@
+
+/* login.css */  
+.loginOverlay {  
+  /* position: fixed;   */
+  top: 0;  
+  left: 0;  
+  right: 60%;  
+  bottom: 0;  
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */  
+  backdrop-filter: blur(10%); /* Apply blur effect to background */  
+  display: flex;  
+  align-items: center; /* Center vertically */  
+  justify-content: center; /* Center horizontally */  
+  z-index: 1000; /* Ensure popup appears above other content */  
+  
+  
+}  
+
+.loginPopup { 
+  background-color: rgba(255, 255, 255, 0.1); /* Background color for the popup */  
+  padding: 20px; 
+  backdrop-filter: blur(10%); 
+  border-radius: 8px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  width: 100%;/* Width of the popup */  
+  text-align: center; /* Center text inside the popup */  
+ 
+   
+}  
+
+.loginPopup input {  
+  display: block;  
+  margin: 10px auto; /* Center inputs */  
+  padding: 10px;  
+   width: calc(80% - 20px);/* Full width minus padding   */
+  /* width: 200px; */
+  border: 1px solid #ccc;  
+  border-radius: 4px;  
+}  
+
+.loginPopup button {  
+  margin-top: 10px;  
+  padding: 10px;  
+  border-color: #00ffff;
+  background-color: rgba(255, 255, 255, 0.1); /* Green button */  
+  color: white;  
+  /* border: none;   */
+  width: 150px;
+  border-radius: 4px;  
+  cursor: pointer; 
+  font-size: 16px;
+}  
+
+.loginPopup button:hover {  
+  border-color: #00ffff;
+  background-color: #00ffff; /* Darker green on hover */  
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.p1,.p2{
+  display: flex;
+  margin-bottom: 20px;
+}
+.i1{
+  background-color: #3b3b3b;
+  border-color: #00ffff;
+  font-weight: bold;
+}
+.i1:hover{
+  background-color: #00ffff;
+  border-color: #3b3b3b;
+  color: black;
+}
+.ico{
+  font-weight: bolder;
+  margin-top: 15px;
+  color:#00ffff ;
+}
+.fo{
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.head{
+  /* margin-top: 50px; */
+  color: #00ffff;
+  padding-bottom: 10px;
+
+}
+.cancel{
+  display: flex;
+  text-decoration: none;
+}
+.log-card{
+  margin-top: 100px;
+}
+.ico1{
+  margin-top: 10px;
+}

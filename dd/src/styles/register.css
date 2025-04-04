@@ -1,0 +1,23 @@
+.registerPopup{
+    margin-top: 100px;
+}
+.headt{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #00ffff;
+}
+.bd{
+    display: flex;
+    margin-top: 15px;
+}
+input{
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 10px;
+    color: #00ffff;
+}
+input:hover{
+    background-color: #00ffff;
+    border-color: #3b3b3b;
+    color: black;
+  }

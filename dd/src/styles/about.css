@@ -1,0 +1,31 @@
+.aboutContainer {  
+    padding: 20px;  
+    background:transparent;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  .aboutContainer h1 {  
+    color: #00ffff;  
+    font-size: 2em;  
+  }  
+  
+  .aboutContainer h2 {  
+    color:#00ffff;  
+    margin-top: 20px;  
+  }  
+  
+  .aboutContainer p {  
+    color: #00ffff;  
+    line-height: 1.6;  
+  }  
+  
+  .aboutContainer ul {  
+    margin: 10px 0;  
+    padding-left: 20px; /* Indent list items */  
+  }  
+  
+  .aboutContainer li {
+    color: #00ffff;  
+    margin-bottom: 5px; /* Space between items */  
+  }  
